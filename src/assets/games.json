@@ -1,0 +1,18 @@
+{
+	"main": {
+		"games": [
+			{
+				"id": "colorswitchchallenges",
+				"url": "https://games.poki.com/458768/colorswitchchallenges",
+				"image": "http://img.poki.com/40e2a174-963c-42e6-96cf-53599fc5b8ea_1.jpg",
+				"categories": ["cat1", "cat2", "cat3"]
+			},
+			{
+				"id": "colorswitchchallenges",
+				"url": "https://games.poki.com/458768/colorswitchchallenges",
+				"image": "http://img.poki.com/40e2a174-963c-42e6-96cf-53599fc5b8ea_1.jpg",
+				"categories": ["cat1", "cat2"]
+			}
+		]
+	}
+}

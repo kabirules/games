@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { GameComponent } from './game/game.component';
+import { MyHeaderComponent } from './my-header/my-header.component';
 import { SeparatorComponent } from './separator/separator.component';
 import { DogListComponent } from './dog-list/dog-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameComponent,
+    MyHeaderComponent,
     SeparatorComponent,
     DogListComponent
   ],

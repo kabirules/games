@@ -19,8 +19,8 @@
 -->
 <section>
   <div *ngFor="let game of games">
-    <div class=".col-4">
-      <img src="{{game.image}}" alt="" height="150" width="250">
+    <div style="float:left;padding:5px;margin:5px">
+      <img src="{{game.image}}" alt="{{game.name}}" height="150" width="250">
     </div> 
   </div>
 </section>

@@ -17,10 +17,17 @@
   </div>
 </section>
 -->
-<section>
-  <div *ngFor="let game of games">
-    <div style="float:left;padding:5px;margin:5px">
-      <img src="{{game.image}}" alt="{{game.name}}" height="150" width="250">
-    </div> 
+<div class="container">
+  <div class="row">
+    <div *ngFor="let game of games">
+      <div class="col-md-4">
+        <a href="#">
+          <img src="{{game.image}}" alt="{{game.name}}" height="150" width="250">
+        </a>
+        <a href="#">
+          <label>{{game.name}}</label>
+        </a>
+      </div> 
+    </div>
   </div>
-</section>
+</div>

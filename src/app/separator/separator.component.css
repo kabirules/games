@@ -1,13 +1,3 @@
 .service-box {
-    background-color: #00BCCC;
-    padding: 40px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .service-box h2{
-      display: inline-block;
-      vertical-align: inherit;
-      margin-left: 30px;
-      font-size: 24px;
+    margin-bottom: 75px;
   }

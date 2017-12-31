@@ -2,12 +2,16 @@
   <div class="row">
     <div *ngFor="let game of games">
       <div class="col-md-4">
-        <a href="#">
-          <img src="{{game.image}}" alt="{{game.name}}" height="100" width="166">
-        </a>
-        <a href="#">
-          <label>{{game.name}}</label>
-        </a>
+        <div>
+          <a href="#">
+            <img src="{{game.image}}" alt="{{game.name}}" height="100" width="166">
+          </a>
+        </div>
+        <div class="game-name">
+          <a href="#">
+            <label >{{game.name}}</label>
+          </a>
+        </div>
       </div> 
     </div>
   </div>

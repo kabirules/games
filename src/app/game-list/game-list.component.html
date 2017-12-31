@@ -3,12 +3,12 @@
     <div *ngFor="let game of games">
       <div class="col-md-4">
         <div>
-          <a href="#">
+          <a href="/game/{{game.id}}">
             <img src="{{game.image}}" alt="{{game.name}}" height="100" width="166">
           </a>
         </div>
         <div class="game-name">
-          <a href="#">
+          <a href="/game/{{game.id}}">
             <label >{{game.name}}</label>
           </a>
         </div>

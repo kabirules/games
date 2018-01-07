@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'game',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 
 export class GameComponent {
+  public href: string = "";
+
+    constructor(
+      private router: Router,
+      private activatedRoute: ActivatedRoute) {
+    }
+
+    ngOnInit() {
+        this.href = this.activatedRoute.snapshot.url[1].path;
+    }
 }

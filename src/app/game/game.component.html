@@ -1,5 +1,3 @@
 <div>
-    {{fullUrl}}
-    <iframe 
-        src="http://games.poki.com/458768/colorswitchchallenges"></iframe>
+    <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(fullUrl)'></iframe>
 </div>

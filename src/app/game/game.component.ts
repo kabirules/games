@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { GameService } from '../game-list/game.service';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'game',
@@ -18,7 +19,8 @@ export class GameComponent {
     constructor(
       private router: Router,
       private activatedRoute: ActivatedRoute,
-      private gameService: GameService) {
+      private gameService: GameService,
+      public sanitizer: DomSanitizer) {
     }
 
     getGames(): void {
@@ -27,14 +29,13 @@ export class GameComponent {
     }    
 
     ngOnInit() {
-        this.href = this.activatedRoute.snapshot.url[1].path;
-        this.getGames();
-        for (let entry of this.games) {
-          if (entry.id == this.href) {
-            this.fullUrl = entry.url;    
-          }
-          //console.log(entry); // 1, "string", false
+      this.href = this.activatedRoute.snapshot.url[1].path;
+      this.getGames();
+      for (let entry of this.games) {
+        if (entry.id == this.href) {
+          this.fullUrl = entry.url;
+          break;
         }
-        //this.fullUrl =  this.games[7].url;
+      }
     }
 }

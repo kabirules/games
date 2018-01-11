@@ -86,6 +86,21 @@ export const GAMES: Game[] = [
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/glauron-dragon-tales/glauron-dragon-tales-teaser.jpg?1443627285",
 		url: "https://games.gamepix.com/play/40161"
-	}
+	},
+	{
+		id: "real-free-kick-3d",
+		name: "Real Free Kick 3D",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/real-freekick-3d/real-freekick-3d-teaser.jpg?1427885708",
+		url: "https://games.softgames.com/games/real-freekick-3D/gamesites/1563/locale/en"
+	},
+	{
+		id: "the-best-pizza",
+		name: "The Best Pizza",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/the-best-pizza/the-best-pizza-teaser.jpg?1443627285",
+		url: "https://games.gamepix.com/play/40129"
+	}	
+	
 ];
 

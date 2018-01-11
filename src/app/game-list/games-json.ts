@@ -101,6 +101,5 @@ export const GAMES: Game[] = [
 		image: "https://m.fog.com/games/the-best-pizza/the-best-pizza-teaser.jpg?1443627285",
 		url: "https://games.gamepix.com/play/40129"
 	}	
-	
 ];
 

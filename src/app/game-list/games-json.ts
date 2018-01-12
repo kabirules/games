@@ -100,6 +100,20 @@ export const GAMES: Game[] = [
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/the-best-pizza/the-best-pizza-teaser.jpg?1443627285",
 		url: "https://games.gamepix.com/play/40129"
-	}	
+	},
+	{
+		id: "river-dash",
+		name: "River Dash",
+		description: "The best game ever!",
+		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i1003.png",
+		url: "https://black-snowflake.org/riverdash/"
+	},
+	{
+		id: "swipe-amd-hit",
+		name: "Swipe and Hit",
+		description: "The best game ever!",
+		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i100-1.png",
+		url: "http://black-snowflake.org/swipehit"
+	}		
 ];
 

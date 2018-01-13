@@ -58,7 +58,15 @@ export const GAMES: Game[] = [
 		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i1003.png",
 		url: "https://black-snowflake.org/riverdash/"
 		//no ads
-	}
+	},
+	{
+		id: "swooop",
+		name: "Swooop",
+		description: "The best game ever!",
+		image: "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/projects/12/4763/TKYXB8-image-75.jpg",
+		url: "https://playcanv.as/p/JtL2iqIH/"
+		//no ads
+	},	
 ];
 /*
 Discarded games

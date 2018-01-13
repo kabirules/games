@@ -4,6 +4,65 @@ import { Game } from '../game/game';
 
 export const GAMES: Game[] = [
 	{
+		id: "little-alchemy",
+		name: "Little Alchemy",
+		description: "The best game ever!",
+		image: "https://cdn.wtf/g/42db4b0a-464e-4ae6-b06e-96440ce66573/meta/promo_440.png",
+		url: "https://clay.io/game/littlealchemy"
+		//no ads
+	},			
+	{
+		id: "dont-crash",
+		name: "Don't Crash",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/do-not-crash-mobile/do-not-crash-mobile-teaser.jpg?1423238863",
+		url: "https://m.fog.com/game/do-not-crash-mobile"
+		//no ads
+	},
+	{
+		id: "pop-up",
+		name: "Pop Up",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/popup/popup-teaser.jpg?1421859408",
+		url: "https://games.gamepix.com/play/20059"
+		//ads
+	},
+	{
+		id: "glauron",
+		name: "Glauron: Dragon Tales",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/glauron-dragon-tales/glauron-dragon-tales-teaser.jpg?1443627285",
+		url: "https://games.gamepix.com/play/40161"
+		//ads
+	},
+	{
+		id: "real-free-kick-3d",
+		name: "Real Free Kick 3D",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/real-freekick-3d/real-freekick-3d-teaser.jpg?1427885708",
+		url: "https://games.softgames.com/games/real-freekick-3D/gamesites/1563/locale/en"
+		//ads
+	},
+	{
+		id: "the-best-pizza",
+		name: "The Best Pizza",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/the-best-pizza/the-best-pizza-teaser.jpg?1443627285",
+		url: "https://games.gamepix.com/play/40129"
+		//ads
+	},
+	{
+		id: "river-dash",
+		name: "River Dash",
+		description: "The best game ever!",
+		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i1003.png",
+		url: "https://black-snowflake.org/riverdash/"
+		//no ads
+	}
+];
+/*
+Discarded games
+	{
 		id: "cut-the-rope-magic",
 		name: "Cut the Rope: Magic",
 		description: "The best game ever!",
@@ -25,95 +84,45 @@ export const GAMES: Game[] = [
 		url: "https://clay.io/game/prism"
 	},	
 	{
-		id: "little-alchemy",
-		name: "Little Alchemy",
-		description: "The best game ever!",
-		image: "https://cdn.wtf/g/42db4b0a-464e-4ae6-b06e-96440ce66573/meta/promo_440.png",
-		url: "https://clay.io/game/littlealchemy"
-	},			
-	{
 		id: "lazors",
 		name: "Lazors",
 		description: "The best game ever!",
 		image: "http://gamebar.commondatastorage.googleapis.com/icons/lazors_icon.png",
 		url: "http://play.gamemix.com/play?id=151"
-	},
-	{
-		id: "dont-crash",
-		name: "Don't Crash",
-		description: "The best game ever!",
-		image: "https://m.fog.com/games/do-not-crash-mobile/do-not-crash-mobile-teaser.jpg?1423238863",
-		url: "https://m.fog.com/game/do-not-crash-mobile"
-	},
+	},	
 	{
 		id: "candy-rain-2",
 		name: "Candy Rain 2",
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/candy-rain-2/candy-rain-2-teaser.jpg?1411136399",
 		url: "http://games.softgames.de/candy-rain-2"
-	},
+	},	
 	{
 		id: "toss-a-paper-2",
 		name: "Toss a Paper 2",
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/toss-a-paper-2/toss-a-paper-2-teaser.jpg?1418035423",
 		url: "http://games.softgames.de/toss-a-paper-2"
-	},
-	{
-		id: "pop-up",
-		name: "Pop Up",
-		description: "The best game ever!",
-		image: "https://m.fog.com/games/popup/popup-teaser.jpg?1421859408",
-		url: "https://games.gamepix.com/play/20059"
-	},
+	},	
 	{
 		id: "crossy-temple",
 		name: "Crossy Temple",
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/crossy-temple/crossy-temple-teaser.jpg?1441709964",
 		url: "http://games.softgames.de/crossy-temple/"
-	},
+	},	
 	{
 		id: "pick-crafter",
 		name: "Pick Crafter",
 		description: "The best game ever!",
 		image: "https://m.fog.com/games/pick-crafter/pick-crafter-teaser.jpg?1421859414",
 		url: "http://games.softgames.de/pick-crafter"
-	},
+	},	
 	{
-		id: "glauron",
-		name: "Glauron: Dragon Tales",
-		description: "The best game ever!",
-		image: "https://m.fog.com/games/glauron-dragon-tales/glauron-dragon-tales-teaser.jpg?1443627285",
-		url: "https://games.gamepix.com/play/40161"
-	},
-	{
-		id: "real-free-kick-3d",
-		name: "Real Free Kick 3D",
-		description: "The best game ever!",
-		image: "https://m.fog.com/games/real-freekick-3d/real-freekick-3d-teaser.jpg?1427885708",
-		url: "https://games.softgames.com/games/real-freekick-3D/gamesites/1563/locale/en"
-	},
-	{
-		id: "the-best-pizza",
-		name: "The Best Pizza",
-		description: "The best game ever!",
-		image: "https://m.fog.com/games/the-best-pizza/the-best-pizza-teaser.jpg?1443627285",
-		url: "https://games.gamepix.com/play/40129"
-	},
-	{
-		id: "river-dash",
-		name: "River Dash",
-		description: "The best game ever!",
-		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i1003.png",
-		url: "https://black-snowflake.org/riverdash/"
-	},
-	{
-		id: "swipe-amd-hit",
+		id: "swipe-and-hit",
 		name: "Swipe and Hit",
 		description: "The best game ever!",
 		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i100-1.png",
 		url: "http://black-snowflake.org/swipehit"
-	}		
-];
-
+	}	
+*/

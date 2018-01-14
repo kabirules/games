@@ -66,7 +66,23 @@ export const GAMES: Game[] = [
 		image: "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/projects/12/4763/TKYXB8-image-75.jpg",
 		url: "https://playcanv.as/p/JtL2iqIH/"
 		//no ads
-	},	
+	},
+	{
+		id: "flappy-bird",
+		name: "Flappy Bird",
+		description: "The best game ever!",
+		image: "https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/6VrvavHu/thumbs/360.jpg",
+		url: "https://playcanv.as/p/2OlkUaxF/"
+		//no ads
+	},
+	{
+		id: "foot-chinko",
+		name: "Foot Chinko",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/foot-chinko/foot-chinko-teaser.jpg?1414679144",
+		url: "https://m.fog.com/game/foot-chinko"
+		//ads, mobile not tested
+	},			
 ];
 /*
 Discarded games

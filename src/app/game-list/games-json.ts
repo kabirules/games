@@ -82,7 +82,23 @@ export const GAMES: Game[] = [
 		image: "https://m.fog.com/games/foot-chinko/foot-chinko-teaser.jpg?1414679144",
 		url: "https://m.fog.com/game/foot-chinko"
 		//ads, mobile not tested
-	},			
+	},
+	{
+		id: "mahjong-deluxe",
+		name: "Mahjong Deluxe",
+		description: "The best game ever!",
+		image: "https://m.fog.com/games/mahjong-deluxe/mahjong-deluxe-teaser.jpg?1438180739",
+		url: "https://m.fog.com/game/mahjong-deluxe"
+		//ads, mobile not tested
+	},
+	{
+		id: "pool-puzle",
+		name: "Pool Puzzle",
+		description: "The best game ever!",
+		image: "https://black-snowflake.org/wp-content/uploads/2014/07/i1006.png",
+		url: "http://www8.agame.com/mirror/html5/p/PoolPuzzle/index.html"
+		//ads, mobile not tested
+	},	
 ];
 /*
 Discarded games
